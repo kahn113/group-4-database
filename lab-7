@@ -1,1 +1,13 @@
 
+Q1: Print the list of postcodes without any repetition
+ANS: Select distinct(postcode) from Branch;
+Q2: Print all fName from Staff without repetition
+ANS: Select distinct(fName) from Staff;
+Q3: List all staff with renaming all its columns in results
+ANS: Select staffNo as ID, fName as FirstNAme, lName as LastName, [position] as Allocation, sex as Gender, DOB as Birth, salary as Wages, branchNo as Branch from Staff;
+Q4: List all clients with re-naming all its columns to synonyms. 
+ANS: SELECT clientNo as StakeHolderID, fName as FirstName, lName as LastName, telNo as
+PhoneNo, prefType as Preference, maxRent as MaximumRent FROM Client;
+Q5: List all staff with a salary greater than 10,000. ANS SELECT salary FROM Staff where salary >10000;
+Q6: List all managers and supervisors.
+ ANS: SELECT [position] FROM Staff Where [position] = 'supervisor' OR [position] ='manager'
