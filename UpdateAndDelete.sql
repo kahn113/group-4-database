@@ -2,33 +2,6 @@ create database StudentTranscriptDB
 use StudentTranscriptDB
 
 
-create table Student(
-StudentId nchar(30),
-Name(30))
-
-  insert into Student(StudentId,Name) values 
-  ('fa20-bcs-001','ali')
- insert into Student(StudentId,Name) values 
-  ('fa20-bcs-002','Aftab')
- insert into Student(StudentId,Name) values 
- ('fa20-bcs-003','Ammar')
-  insert into Student(StudentId,Name) values 
-('fa20-bcs-004','Mohsin')
-insert into Student(StudentId,Name) values 
-('fa20-bcs-005','Zubair')
-insert into Student(StudentId,Name) values 
-('fa20-bcs-006','Daniyal')
-insert into Student(StudentId,Name) values 
-('fa20-bcs-007','Usman')
-insert into Student(StudentId,Name) values 
-('fa20-bcs-008','Abbass')
-insert into Student(StudentId,Name) values 
-('fa20-bcs-009','Saddique')
-insert into Student(StudentId,Name) values 
-('fa20-bcs-010','Umar')
-
-
-
 create table Transcript(
 CourseName nchar(30),
 GPA float(30),
