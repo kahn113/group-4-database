@@ -31,35 +31,56 @@ INSERT into Branch (branchNo, street, city, postcode) VALUES ('B005',
  'H#19 I-93/6', 'KARI', '89100');
 
  /* Above work is Zahir Ayub Khan. Work Below Is Jamal khan*/
+create database DreamHome;
+use Dreamhome;
+create table Branch(branchNo varchar(20) NOT NULL PRIMARY KEY, street varchar(50)
+NOT NULL, city varchar(50) NOT NULL,
+postcode varchar(20) NOT NULL);
 
- INSERT into Branch (branchNo, street, city, postcode) VALUES ('B0019',
- 'X#11 Y-11/1', 'ABBOTTABAD', '22500');
- INSERT into Branch (branchNo, street, city, postcode) VALUES ('B0020',
- 'X#77 Y-22/2', 'MANSERA', '23400');
- INSERT into Branch (branchNo, street, city, postcode) VALUES ('B0021',
- 'X#89 Y-33/3', 'PESHAWER', '24500');
- INSERT into Branch (branchNo, street, city, postcode) VALUES ('B0022',
- 'X#69 Y-44/4', 'MARDAN', '26500');
- INSERT into Branch (branchNo, street, city, postcode) VALUES ('B0023',
- 'X#35 Y-55/5', 'KOHAT', '27500');
- INSERT into Branch (branchNo, street, city, postcode) VALUES ('B0024',
- 'X#66 Y-66/6', 'NOWSHERA', '28500');
- INSERT into Branch (branchNo, street, city, postcode) VALUES ('B0025',
- 'X#99 Y-77/7', 'SWABI', '29500');
- INSERT into Branch (branchNo, street, city, postcode) VALUES ('B0026',
- 'X#12 Y-88/8', 'ISLAMABAD', '31500');
- INSERT into Branch (branchNo, street, city, postcode) VALUES ('B0027',
- 'X#19 Y-99/9', 'RAWALPINDI', '32500');
-  INSERT into Branch (branchNo, street, city, postcode) VALUES ('B0028',
- 'X#35 Y-12/1', 'LAHORE', '33500');
- INSERT into Branch (branchNo, street, city, postcode) VALUES ('B0029',
- 'X#66 Y-13/2', 'KARACHI', '34500');
- INSERT into Branch (branchNo, street, city, postcode) VALUES ('B0030',
- 'X#99 Y-14/3', 'MULTAN', '35500');
- INSERT into Branch (branchNo, street, city, postcode) VALUES ('B0031',
- 'X#12 Y-15/4', 'HYDERABAD', '36500');
- INSERT into Branch (branchNo, street, city, postcode) VALUES ('B0032',
- 'X#19 Y-16/5', 'OKHARA', '37500');
+
+INSERT into Branch (branchNo, street, city, postcode) VALUES 
+  ('B0019','X#11 Y-11/1', 'ABBOTTABAD', '22500');
+  INSERT into Branch (branchNo, street, city, postcode) VALUES 
+ ('B0020','X#77 Y-22/2', 'MANSERA', '23400');
+ INSERT into Branch (branchNo, street, city, postcode) VALUES 
+ ('B0021','X#89 Y-33/3', 'PESHAWER', '24500');
+ INSERT into Branch (branchNo, street, city, postcode) VALUES 
+ ('B0022','X#69 Y-44/4', 'MARDAN', '26500');
+ INSERT into Branch (branchNo, street, city, postcode) VALUES 
+ ('B0023','X#35 Y-55/5', 'KOHAT', '27500');
+ INSERT into Branch (branchNo, street, city, postcode) VALUES 
+ ('B0024','X#66 Y-66/6', 'NOWSHERA', '28500');
+ INSERT into Branch (branchNo, street, city, postcode) VALUES 
+ ('B0025','X#99 Y-77/7', 'SWABI', '29500');
+ INSERT into Branch (branchNo, street, city, postcode) VALUES 
+ ('B0026','X#12 Y-88/8', 'ISLAMABAD', '31500');
+ INSERT into Branch (branchNo, street, city, postcode) VALUES 
+ ('B0027','X#19 Y-99/9', 'RAWALPINDI', '32500');
+ INSERT into Branch (branchNo, street, city, postcode) VALUES 
+ ('B0028','X#35 Y-12/1', 'LAHORE', '33500');
+ INSERT into Branch (branchNo, street, city, postcode) VALUES 
+ ('B0029','X#66 Y-13/2', 'KARACHI', '34500');
+ INSERT into Branch (branchNo, street, city, postcode) VALUES 
+ ('B0030','X#99 Y-14/3', 'MULTAN', '35500');
+ INSERT into Branch (branchNo, street, city, postcode) VALUES 
+ ('B0031','X#12 Y-15/4', 'HYDERABAD', '36500');
+ INSERT into Branch (branchNo, street, city, postcode) VALUES 
+ ('B0032','X#19 Y-16/5', 'OKHARA', '37500');
+ INSERT into Branch (branchNo, street, city, postcode) VALUES 
+ ('B0033','X#35 Y-12/1', 'LAHORE', '8000');
+ INSERT into Branch (branchNo, street, city, postcode) VALUES 
+ ('B0034','X#66 Y-13/2', 'KARACHI', '9000');
+ INSERT into Branch (branchNo, street, city, postcode) VALUES 
+ ('B0035','X#99 Y-14/3', 'MULTAN', '11000');
+ INSERT into Branch (branchNo, street, city, postcode) VALUES 
+ ('B0036','X#12 Y-15/4', 'HYDERABAD', '15000');
+ INSERT into Branch (branchNo, street, city, postcode) VALUES 
+ ('B0037','X#19 Y-16/5', 'OKHARA', '34500');
+ INSERT into Branch (branchNo, street, city, postcode) VALUES 
+ ('B0038','X#35 Y-12/1', 'LAHORE', '1000');
+ INSERT into Branch (branchNo, street, city, postcode) VALUES 
+ ('B0039','X#66 Y-13/2', 'KARACHI', '19000');
+
 
 /*lab 7 by zahir ayub khan*/
 select Distinct postcode from Branch;
